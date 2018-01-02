@@ -2,7 +2,7 @@
   <div id="app">
     <headers></headers>
     <contents></contents>
-    <footers></footers> 
+    <footers></footers>
   </div>
 </template>
 
@@ -25,10 +25,14 @@ export default {
   font-family: microsoft yahei;
 }
 #app {
-  width: 1020px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
   margin: 0 auto;
   padding: 0;
-  box-shadow: 0px 0px 10px 7px rgb(225,225,226);
+  box-shadow: 0px 0px 10px 0px rgb(225,225,226);
 }
 
 a,a:hover,a:visited,a:link{

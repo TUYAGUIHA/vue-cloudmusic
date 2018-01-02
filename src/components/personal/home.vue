@@ -2,11 +2,11 @@
     <div>
       {{$route.path}}
     </div>
-</template> 
+</template>
 <script>
 export default{
 }
 </script>
 <style scoped>
-    
+
 </style>
